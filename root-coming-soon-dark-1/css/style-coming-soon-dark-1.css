@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    background-color: #444;
+    height: 100vh;
+}
+
+header {
+    height: 35vh;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5em;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    margin: 20px 0 5px 20px;
+    padding: 16px;
+    width: 100px;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 280px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+label {
+    display: none;
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1.2px solid #fff;
+    height: 27px;
+    margin-right: 10px;
+    color: #fff;
+    caret-color: #fff;
+}
+
+input:focus {
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    border: 1.2px solid #fff;
+    border-radius: 10%;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.error {
+    color: #f00;
+    font-size: .8em;
+    margin-top: 15px;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+#feedback {
+    color: #fff;
+    display: none;
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 250px auto;
+    text-align: center;
+}
