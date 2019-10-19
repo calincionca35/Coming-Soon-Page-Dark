@@ -39,3 +39,6 @@ $("submit").addEventListener("click", function() {
         isValid = false;
     }
 });
+
+//Footer Copyright Year
+$("copyRightYear").innerHTML = new Date().getFullYear();
