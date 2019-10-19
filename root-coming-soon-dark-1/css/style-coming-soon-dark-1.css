@@ -126,3 +126,9 @@ input[type="submit"]:hover {
     margin: 250px auto;
     text-align: center;
 }
+
+footer {
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
