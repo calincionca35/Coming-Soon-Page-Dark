@@ -130,5 +130,6 @@ input[type="submit"]:hover {
 footer {
     -ms-flex-item-align: center;
     align-self: center;
+    color: #fff;
     margin-bottom: 30px;
 }
