@@ -6,19 +6,32 @@
 }
 
 body {
-    font-family: Lato, Helvetica, sans-serif;
     background-color: #444;
+    color: #fff;
+    font-family: Lato, Helvetica, sans-serif;
     height: 100vh;
 }
 
-#wrapper {
+#wrapper, main, form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+
+#wrapper, main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+main, form {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#wrapper {
     min-height: 100vh;
 }
 
@@ -27,7 +40,6 @@ header {
 }
 
 h1 {
-    color: #fff;
     font-size: 1.5em;
     border: 1px solid #fff;
     border-radius: 20px;
@@ -37,30 +49,12 @@ h1 {
 }
 
 main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     -webkit-box-flex:1;
     -ms-flex:1;
     flex:1;
 }
 
 form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -70,7 +64,6 @@ form {
 }
 
 h2 {
-    color: #fff;
     font-size: 2em;
     margin-bottom: 15px;
 }
@@ -133,7 +126,6 @@ input[type="submit"]:hover {
 }
 
 #feedback {
-    color: #fff;
     display: none;
     font-size: 1.25em;
     font-weight: 500;
@@ -145,6 +137,5 @@ input[type="submit"]:hover {
 footer {
     -ms-flex-item-align: center;
     align-self: center;
-    color: #fff;
     margin-bottom: 30px;
 }
