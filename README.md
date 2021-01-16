@@ -8,4 +8,3 @@
   * responsive flat UI, asking only for user e-mail address
   * Session Storage and disabled submit button after submission to prevent information resubmission
   * JavaScript for front end form validation
-* View [Coming-Soon-Page-Dark](http://htmlpreview.github.io/?https://github.com/calincionca35/Coming-Soon-Page-Dark/blob/master/root-coming-soon-dark-1/index-coming-soon-dark-1.html)
